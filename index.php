@@ -15,7 +15,7 @@
  <? require_once("server/constants/registerForm.php"); ?>
 </div>
 <div class="login-register">
-	<input type="button" onclick="Show('userPanel')" value="Login/Registration">
+	<input type="button" onclick="Show(userPanel)" value="Login/Registration">
 </div>
 </header>
 </body>
