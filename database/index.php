@@ -12,6 +12,7 @@ require_once("../src/connect.php");
 <title>PocketDev Database Console</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="../css/database.css">
+<script src="../js/database.js"></script>
 </head>
 <body>
 <header>
@@ -29,14 +30,15 @@ require_once("../src/connect.php");
 </div>
 <!-- Possible add image to buttons -->
 <div id="rightNavPanel" class="right-nav-panel">
-	<input type="button" class="nav-button" name="browse" value="Browse">
-    <input type="button" class="nav-button" name="structure" value="Structure">
-    <input type="button" class="nav-button" name="sql" value="SQL">
-    <input type="button" class="nav-button" name="search" value="Search">
-    <input type="button" class="nav-button" name="insert" value="Insert">
-    <input type="button" class="nav-button" name="export" value="Export">
-    <input type="button" class="nav-button" name="import" value="Import">
-    <input type="button" class="nav-button" name="operations" value="Operations">
+	<input type="button" class="nav-button" onclick="showPanelByID(browseBtn)" name="browse" value="Browse">
+	<input type="button" class="nav-button" onclick="showPanelByID(structureBtn)" name="structure" value="Structure">
+	<input type="button" class="nav-button" onclick="showPanelByID(sqlBtn)" name="sql" value="SQL">
+	<input type="button" class="nav-button" onclick="showPanelByID(searchBtn)" name="search" value="Search">
+	<input type="button" class="nav-button" onclick="showPanelByID(insertBtn)" name="insert" value="Insert">
+	<input type="button" class="nav-button" onclick="showPanelByID(exportBtn)" name="export" value="Export">
+	<input type="button" class="nav-button" onclick="showPanelByID(importBtn)" name="import" value="Import">
+	<input type="button" class="nav-button" onclick="showPanelByID(operationsBtn)" name="operations" value="Operations">
+
 </div>
 
 <div id="rightPanel" class="right-panel">
