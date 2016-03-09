@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Pocketmine Devs Central</title>
+<title>PocketDevs Central</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/font.css">
 <link rel="stylesheet" href="css/main.css">
