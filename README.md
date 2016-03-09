@@ -22,6 +22,6 @@ AJAX
 Other useful languages
 
 ##Other information
-Site will be hosted on pocketminedevs.org(already registered but not currently online)
+Site will be hosted on pocketdevs.org(already registered but not currently online)
 All contributors WILL get credit and people who contribute to making this website can be an admin,mod... whatever system we decide to implement :) I dont want this to be a dictatorship project I want this to be a callaborative group project :)
 Please contribute :) I would love to get this site going
