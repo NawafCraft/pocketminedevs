@@ -14,12 +14,12 @@ function alert($msg){
 }
 function repeat_alert($repeats,$msg){
  $t = 0;
- while($t < $repeats){
+ do{
   if($repeats > 0){
    $t = $t + 1;
    echo "<script>alert('$msg')</script>";
   }
- }
+ }while($t < $repeats);
 }
 function alert_rand($delay,$msgArray,$repeats){
  $currentMsg = array_rand($msgArray);
