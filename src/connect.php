@@ -1,5 +1,5 @@
 <?
-require_once("src/fg.php");
+include_once("src/fg.php");
 //Possible update to sqli
 $host = "";
 $user = "";
