@@ -5,5 +5,5 @@ $host = "";
 $user = "";
 $pass = "";
 $db = "";
-connect($host,$user,$pass,$db);
+dbConnect($host,$user,$pass,$db);
 ?>
