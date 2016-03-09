@@ -20,6 +20,8 @@ SQL
 AJAX
 
 Other useful languages
+#Collaboration
+Please get the Zenhub extension to make collaboration on this project smoother :)
 
 ##Other information
 Site will be hosted on pocketdevs.org(already registered but not currently online)
