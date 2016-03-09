@@ -11,9 +11,12 @@ require_once("../src/connect.php");
 <head>
 <title>PocketDev Database Console</title>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../css/database.css"
+<link rel="stylesheet" href="../css/database.css">
 </head>
 <body>
+<header>
+<!-- Create PocketDev Header -->
+</header>
 <div id="leftPanel" class="left-panel">
 <?
  $sql = "SHOW TABLES";
@@ -23,6 +26,17 @@ require_once("../src/connect.php");
   echo "<a href='?table=$row[0]'>" . $row[0] . "</a><br>";
  }
 ?>
+</div>
+<!-- Possible add image to buttons -->
+<div id="rightNavPanel" class="right-nav-panel">
+	<input type="button" class="nav-button" name="browse" value="Browse">
+    <input type="button" class="nav-button" name="structure" value="Structure">
+    <input type="button" class="nav-button" name="sql" value="SQL">
+    <input type="button" class="nav-button" name="search" value="Search">
+    <input type="button" class="nav-button" name="insert" value="Insert">
+    <input type="button" class="nav-button" name="export" value="Export">
+    <input type="button" class="nav-button" name="import" value="Import">
+    <input type="button" class="nav-button" name="operations" value="Operations">
 </div>
 
 <div id="rightPanel" class="right-panel">
@@ -36,7 +50,30 @@ if(isset($_GET['table'])){
     //Create system for getting table fields,rows,columns and displaying
 }
 ?>
-testing
+<div id="browseBtn" class="browse-panel">
+
+</div>
+<div id="structureBtn" class="structure-panel">
+
+</div>
+<div id="sqlBtn" class="sql-panel">
+
+</div>
+<div id="searchBtn" class="search-panel">
+
+</div>
+<div id="insertBtn" class="insert-panel">
+
+</div>
+<div id="exportBtn" class="export-panel">
+
+</div>
+<div id="importBtn" class="import-panel">
+
+</div>
+<div id="operationsBtn" class="operations-panel">
+
+</div>
 </div>
 </body>
 </html>
